@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - node
+deploy:                         
+  provider: s3                         
+  access_key_id: "AKIA34WA5K4PZK5RSM7Y"
+  secret_access_key: "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"
+  bucket: "travispipeline"
+  acl: public_read
+
